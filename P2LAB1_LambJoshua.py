@@ -12,9 +12,8 @@ d = 2 * r
 c = 2 * pi * r
 a = pi * r**2
 
-print()
-print('The diameter of the circle is', f'{d:.1f}')
-print()
-print('The circumference of the circle is', f'{c:.2f}')
-print()
-print('The area of the circle is', f'{a:.3f}')
+print(f'\nThe diameter of the circle is {d:.1f}')
+
+print(f'\nThe circumference of the circle is {c:.2f}')
+
+print(f'\nThe area of the circle is {a:.3f}')
