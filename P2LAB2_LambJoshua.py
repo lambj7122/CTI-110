@@ -13,12 +13,13 @@ cars = {
 keys = cars.keys()
 
 print(keys)
-print()
-car = input("Enter a vehicle to see it's mpg: ")
-print()
-print(f"The {car} gets {cars[car]} mpg.")
-print()
-miles = float(input(f"How many miles will you drive the {car}? "))
-print()
+
+car = input("\nEnter a vehicle to see it's mpg: ")
+
+print(f"\nThe {car} gets {cars[car]} mpg.")
+
+miles = float(input(f"\nHow many miles will you drive the {car}? "))
+
 gas = miles / cars[car]
-print(f"{gas:.2f} gallon(s) of gas are needed to drive the {car} {miles:.1f} miles.")
+
+print(f"\n{gas:.2f} gallon(s) of gas are needed to drive the {car} {miles:.1f} miles.")
