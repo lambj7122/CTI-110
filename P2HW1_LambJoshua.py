@@ -1,8 +1,13 @@
 # Joshua Lamb
-# 2-23-2025
-# P1HW2
+# 3-1-2025 resubmitted 3-20-2025
+# P2HW1
 # Python program to calculate travel expenses and show a formatted display.
 
+# I'm not sure why my original submission wouldn't run.  My saved file worked
+# for me when I opened it and ran it.  But I may have changed something in the
+# file when I was referencing it while working on something else.  The only
+# thing I changed for resubmitting was updating the date and assignment name,
+# that I had forgotten to do when I first copied the program from P1HW2.
 
 
 '''
