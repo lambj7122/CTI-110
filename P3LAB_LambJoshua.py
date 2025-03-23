@@ -1,6 +1,6 @@
 ##Joshua Lamb
 
-##3-8-2025
+##3-8-2025.  Resubmitted 3-23-25:  added "No change" output
 
 ##P3LAB
 
@@ -14,50 +14,56 @@
 #Get money value from user
 money = float(input('Enter an amount of money: $'))
 
-#Convert money value to whole number
-money = round(money * 100)
+if money > 0:
 
-#Determine how many coins are needed
-dollars = money // 100
-money = money - (dollars * 100)
+    #Convert money value to whole number
+    money = round(money * 100)
 
-quarters = money // 25
-money = money - (quarters * 25)
+    #Determine how many coins are needed
+    dollars = money // 100
+    money = money - (dollars * 100)
 
-dimes = money // 10
-money = money - (dimes * 10)
+    quarters = money // 25
+    money = money - (quarters * 25)
 
-nickels = money // 5
-money = money - (nickels * 5)
+    dimes = money // 10
+    money = money - (dimes * 10)
 
-pennies = money
+    nickels = money // 5
+    money = money - (nickels * 5)
 
-if dollars > 0:
-    if dollars == 1:
-        print(f'{dollars} Dollar')
-    else:
-        print(f'{dollars} Dollars')
+    pennies = money
 
-if quarters > 0:
-    if quarters == 1:
-        print(f'{quarters} Quarter')
-    else:
-        print(f'{quarters} Quarters')
+    if dollars > 0:
+        if dollars == 1:
+            print(f'{dollars} Dollar')
+        else:
+            print(f'{dollars} Dollars')
 
-if dimes > 0:
-    if dimes == 1:
-        print(f'{dimes} Dime')
-    else:
-        print(f'{dimes} Dimes')
+    if quarters > 0:
+        if quarters == 1:
+            print(f'{quarters} Quarter')
+        else:
+            print(f'{quarters} Quarters')
 
-if nickels > 0:
-    if nickels == 1:
-        print(f'{nickels} Nickel')
-    else:
-        print(f'{nickels} Nickels')
+    if dimes > 0:
+        if dimes == 1:
+            print(f'{dimes} Dime')
+        else:
+            print(f'{dimes} Dimes')
 
-if pennies > 0:
-    if pennies == 1:
-        print(f'{pennies} Penny')
-    else:
-        print(f'{pennies} Pennies')
+    if nickels > 0:
+        if nickels == 1:
+            print(f'{nickels} Nickel')
+        else:
+            print(f'{nickels} Nickels')
+
+    if pennies > 0:
+        if pennies == 1:
+            print(f'{pennies} Penny')
+        else:
+            print(f'{pennies} Pennies')
+
+else:
+    print("No change")
+    
