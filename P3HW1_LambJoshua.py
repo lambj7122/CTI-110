@@ -1,13 +1,23 @@
 # Joshua Lamb
-# 3-14-2025
+
+# 3-28-2025
+
 # P3HW1
-# This program determines average number grade and displays a letter grade.
+
+# This program takes a number grade,
+# determines average and displays letter grade for the average.
 
 
-# Lamb
+
+'''
+Get user entered grades for Modules 1-6.
+Create a list containing the entered grades.
+Determine and display lowest, highest, sum, and average of grades.
+Use if/else statements to determine and display a letter grade
+based on the numerical average.
+'''
 
 
-# This program takes a number grade , determines average and displays letter grade for average.
 
 # Enter grades for six modules
 
@@ -29,11 +39,12 @@ total = sum(grades)
 count = len(grades)
 avg = total / count
 
-print('\n------------Results------------')
-print(f'{'Lowest Grade:':20}{low:.1f}')
-print(f'{'Highest Grade:':20}{high:.1f}')
-print(f'{'Sum of Grades:':20}{total:.1f}')
-print(f'{'Average:':20}{avg:.2f}')
+print()
+print('------------Results------------')
+print(f'Lowest Grade:       {low:.1f}')
+print(f'Highest Grade:      {high:.1f}')
+print(f'Sum of Grades:      {total:.1f}')
+print(f'Average:            {avg:.2f}')
 print('----------------------------------------')
 
 
