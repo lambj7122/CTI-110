@@ -1,11 +1,21 @@
 # Joshua Lamb
 
-# 3-14-2025
+# 3-28-2025
 
 # P3HW2
 
 # A program that gets an emplpoyee's name, hours worked, and pay rate;
 # and calculates overtime pay, regular pay, and gross pay.
+
+
+
+'''
+Get employee name, hours worked, and pay rate.
+Calculate overtime hours and pay, regular hours and pay, and gross pay.
+Display employee name.
+Display hours worked, pay rate, overtime, overtime pay, regular pay, and gross pay;
+and display corresponding amounts.
+'''
 
 
 
@@ -48,7 +58,7 @@ gross_pay = OT_pay + reg_pay
 
 
 print('-------------------------------------')
-print(f'{'Employee name:   '}{name}')
+print(f'Employee name:   {name}')
 print()
 print('Hours Worked   Pay Rate    OverTime    OverTime Pay        RegHour Pay         Gross Pay')
 print('--------------------------------------------------------------------------------------------------')
