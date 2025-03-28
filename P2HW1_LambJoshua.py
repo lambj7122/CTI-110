@@ -1,11 +1,23 @@
 # Joshua Lamb
+
 # 3-1-2025 resubmitted 3-20-2025. Resubmitted 3-23-2025.
+# 3-28-2025 changed  my f strings and resubmitted.
+
 # P2HW1
+
 # Python program to calculate travel expenses and show a formatted display.
 
+
+
 # 3-23-25: changed quotes in strings.
-# It runs in pythontutor.com visual debugger
+# It runs in pythontutor.com visual debugger.
 # I'm writing and running the code in IDLE 3.13.2
+
+
+
+# 3-28-25:  I changed my f strings to not use formatting for the text.
+
+
 
 '''
 Display explanation of program.
@@ -40,12 +52,12 @@ print()
 food = float(input('Last, how much do you need for food? '))
 print()
 
-print('------------Travel Expenses------------')
-print(f"{'Location:':20}{dest}")
-print(f"{'Initial Budget:':20}${budget:.2f}")
-print(f"{'Fuel:':20}${gas:.2f}")
-print(f"{'Accomodation:':20}${hotel:.2f}")
-print(f"{'Food:':20}${food:.2f}")
+print(f'------------Travel Expenses------------')
+print(f'Location:           {dest}')
+print(f'Initial Budget:     ${budget:.2f}')
+print(f'Fuel:               ${gas:.2f}')
+print(f'Accomodation:       ${hotel:.2f}')
+print(f'Food:               ${food:.2f}')
 print('---------------------------------------')
 
 print()
@@ -54,4 +66,4 @@ expenses = gas + hotel + food
 
 balance = budget - expenses
 
-print(f"{'Remaining Balance:':20}${balance:.2f}")
+print(f'Remaining Balance:  ${balance:.2f}')
